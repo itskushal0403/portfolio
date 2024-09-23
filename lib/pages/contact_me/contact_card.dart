@@ -144,10 +144,10 @@ class ContactCardSocialLinksLandscape extends StatelessWidget {
                     ),
                     color: primaryColorDarker,
                   ),
-                  child: Column(
+                  child: const Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: [
                       Text(
                         'Say,',
                         style: TextStyle(
@@ -201,9 +201,9 @@ class ContactCardSocialLinksLandscape extends StatelessWidget {
               decoration: const BoxDecoration(
                 color: secondaryWhiteColor,
               ),
-              child: Row(
+              child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
+                  children: [
                     SocialMediaLinkIcon(
                       imagePath: linkedinIconPath,
                       url: linkedinProfileUrl,
@@ -252,10 +252,10 @@ class ContactCardSocialLinks extends StatelessWidget {
                   ),
                   color: primaryColorDarker,
                 ),
-                child: Column(
+                child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       'Say,',
                       style: TextStyle(
