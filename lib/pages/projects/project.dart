@@ -1,4 +1,10 @@
-enum TechStack { flutter, react, python, typescript, javascript, dart }
+enum TechStack {
+  flutter,
+  dart,
+  python,
+  robotics,
+  machineLearning,
+}
 
 class Project {
   final String title;

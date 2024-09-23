@@ -10,7 +10,7 @@ import 'package:mohit_portfolio/pages/projects/projects.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
-class Header extends StatelessWidget with PreferredSizeWidget {
+class Header extends StatelessWidget implements PreferredSizeWidget {
   const Header({super.key});
 
   @override
@@ -22,34 +22,34 @@ class Header extends StatelessWidget with PreferredSizeWidget {
       // only kicking in when the cursor is on the lines, probably it won't be an issue
       // as user will click with fingers.
       leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Expanded(
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Expanded(
               child: ResponsiveValue(context,
                   defaultValue: const LeadingWidgetDesktop(),
                   valueWhen: const [
                     Condition.smallerThan(
                         name: DESKTOP, value: LeadingWidgetMobile())
                   ]).value!,
-              ),
-              const Spacer(),
-              ResponsiveVisibility(
-                hiddenWhen: const [
-                  Condition.smallerThan(
-                    name: DESKTOP,
-                  )
-                ],
-                child: Expanded(
-                  child: Text(
-                    'mohit-tater',
-                    style: Theme.of(context).textTheme.bodyText1,
-                  ),
+            ),
+            const Spacer(),
+            ResponsiveVisibility(
+              hiddenWhen: const [
+                Condition.smallerThan(
+                  name: DESKTOP,
+                )
+              ],
+              child: Expanded(
+                child: Text(
+                  '_kushal_',
+                  style: Theme.of(context).textTheme.bodyLarge,
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
+        ),
       ),
       leadingWidth: ResponsiveValue(
         context,
@@ -73,8 +73,8 @@ class Header extends StatelessWidget with PreferredSizeWidget {
                 style: TextButton.styleFrom(
                   foregroundColor: accentOrangeColor,
                 ),
-                child: Row(
-                  children: const [
+                child: const Row(
+                  children: [
                     Icon(
                       Icons.download,
                     ),
@@ -96,7 +96,7 @@ class Header extends StatelessWidget with PreferredSizeWidget {
                   name: DESKTOP,
                   value: Padding(
                     padding: EdgeInsets.all(8.0),
-                    child: Text('mohit_tater'),
+                    child: Text('kushal_sharma'),
                   ))
             ]).value!
       ],
@@ -171,9 +171,9 @@ class LeadingWidgetMobile extends StatelessWidget {
       onTap: (() {
         Scaffold.of(context).openDrawer();
       }),
-      child: Column(
+      child: const Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: const [
+        children: [
           DrawerButtonElement(
             elementColor: closeButtonColor,
           ),
@@ -276,9 +276,9 @@ class NavElement extends StatelessWidget {
         },
         child: Text(
           title,
-          style: Theme.of(context).textTheme.bodyText1!.copyWith(
+          style: Theme.of(context).textTheme.bodyLarge!.copyWith(
               color: title.contains(location.substring(1)) == true
-                  ? Theme.of(context).textTheme.bodyText1!.color
+                  ? Theme.of(context).textTheme.bodyLarge!.color
                   : secondaryWhiteColor),
           textAlign: TextAlign.center,
         ),

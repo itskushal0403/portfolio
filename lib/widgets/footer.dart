@@ -24,7 +24,7 @@ class Footer extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          IconLabelButton(
+          /*IconLabelButton(
             buttonLabel: 'Design By',
             linkUrl: 'https://www.behance.net/darelova',
             iconWidget: Image.asset(
@@ -32,7 +32,7 @@ class Footer extends StatelessWidget {
             ),
             buttonLabelColor: secondaryGreyColor,
             toolTip: 'Yanka Darelova',
-          ),
+          ),*/
           const VerticalDivider(
             color: secondaryGreyColor,
           ),
@@ -56,13 +56,13 @@ class Footer extends StatelessWidget {
               color: secondaryWhiteColor,
             ),
             buttonLabelColor: secondaryGreyColor,
-            toolTip: 'Mohit Tater - Linkedin',
+            toolTip: 'Kushal Sharma - Linkedin',
           ),
           const VerticalDivider(
             color: secondaryGreyColor,
           ),
           Tooltip(
-            message: 'Mohit Tater - Twitter',
+            message: 'Kushal Sharma - Twitter',
             child: IconButton(
               onPressed: () async {
                 await launchUrlString(twitterProfileUrl);
@@ -84,7 +84,7 @@ class Footer extends StatelessWidget {
           ),
           IconLabelButton(
             buttonLabel: 'Source code @',
-            linkUrl: 'https://github.com/mnttnm/mohit_portfolio',
+            linkUrl: 'https://github.com/itskushal0403',
             iconWidget: Image.asset(
               githubIconPath,
               color: secondaryWhiteColor,

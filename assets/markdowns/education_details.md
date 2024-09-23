@@ -4,18 +4,23 @@
 
 ### Graduation
 
-#### Indian Institute of Information Technology-Allahabad
+#### Sant Longowal Institute of Engineering and Technology
 
-2011-2015 | ECE
+2021-2025 | CSE
 
-CGPA : **8.54/10**
+CGPA : **9.0/10**
 
 ---
 
-### Senior Secondary
+### Diploma in Engineering
 
-#### St Anthony's Sr. Sec. School, Udaipur, Raj
+#### Aligarh Muslim University
 
-2009-10 | Science-Maths
+2017-2020 | 
 
-Grades : **89.50%**
+Grades : **82.50%**
+---
+### High School
+
+#### C.B.S.E Board
+2016-2020 |

@@ -244,9 +244,9 @@ class ThankYouMessage extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Row(
+        const Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
+          children: [
             Text(
               "Thanks for reaching out!",
               style: TextStyle(

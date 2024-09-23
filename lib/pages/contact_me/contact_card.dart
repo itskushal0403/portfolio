@@ -311,9 +311,9 @@ class ContactCardSocialLinks extends StatelessWidget {
                     borderRadius: BorderRadius.all(Radius.circular(50)),
                     color: secondaryWhiteColor,
                   ),
-                  child: Column(
+                  child: const Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: const [
+                      children: [
                         SocialMediaLinkIcon(
                           imagePath: linkedinIconPath,
                           url: linkedinProfileUrl,
@@ -338,24 +338,23 @@ class ContactCardSocialLinks extends StatelessWidget {
         ),
         Expanded(
           child: Container(
-            margin: const EdgeInsets.only(left: 10),
+            margin: const EdgeInsets.only(left: 5),
             height: 200,
-            child: Column(
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
+              children: [
                 SocialMediaLabel(
                   url: linkedinProfileUrl,
-                  displayLabel: 'tatermohit',
+                  displayLabel: 'Kushal Sharma',
                 ),
                 SocialMediaLabel(
-                    url: githubProfileUrl, displayLabel: 'mnttnm'),
+                    url: githubProfileUrl, displayLabel: 'itskushal0403'),
                 SocialMediaLabel(
-                    url: twitterProfileUrl,
-                    displayLabel: '@tatermohit'),
+                    url: twitterProfileUrl, displayLabel: '@itskushal0403'),
                 SocialMediaLabel(
                     url: instagramProfileUrl,
-                    displayLabel: '_mohit_tater_'),
+                    displayLabel: 'itskushalbharadwaj'),
               ],
             ),
           ),
@@ -403,6 +402,7 @@ class SocialMediaLabel extends StatelessWidget {
     );
   }
 }
+
 class SocialMediaLinkIcon extends StatelessWidget {
   const SocialMediaLinkIcon({
     Key? key,
@@ -448,15 +448,15 @@ class CardContentProfessionalLinks extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Mohit Tater'.toUpperCase(),
-                  style: Theme.of(context).textTheme.headline2!.copyWith(
+                  'Kushal Sharma'.toUpperCase(),
+                  style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                         color: primaryColor,
                         fontWeight: FontWeight.w600,
                       ),
                 ),
                 Text(
-                  'UX Engineer',
-                  style: Theme.of(context).textTheme.subtitle1!.copyWith(
+                  'Flutter Developer and Robotics Enthusiast',
+                  style: Theme.of(context).textTheme.titleMedium!.copyWith(
                         color: primaryColor,
                         fontWeight: FontWeight.w600,
                       ),
@@ -464,7 +464,7 @@ class CardContentProfessionalLinks extends StatelessWidget {
               ],
             ),
           ),
-          Expanded(
+          const Expanded(
             flex: 2,
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -473,18 +473,18 @@ class CardContentProfessionalLinks extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       ProfessionalLink(
-                        linkText: 'mohittater.iiita@gmail.com',
+                        linkText: 'kushalsharma@gmail.com',
                         linkIcon: Icons.mail,
                       ),
                       ProfessionalLink(
-                        linkText: 'Bangalore, India',
+                        linkText: 'Punjab,India',
                         linkIcon: Icons.location_on,
                       ),
                     ],
                   ),
-                  Container(
+                  /*Container(
                     padding: const EdgeInsets.all(4),
                     decoration: BoxDecoration(
                         border: Border.all(
@@ -495,7 +495,7 @@ class CardContentProfessionalLinks extends StatelessWidget {
                       width: 100,
                       height: 100,
                     ),
-                  )
+                  )*/
                 ]),
           )
         ],

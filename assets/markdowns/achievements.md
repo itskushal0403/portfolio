@@ -1,7 +1,17 @@
 ## Achievements  
 ---
-- Founders choice award, Bluejeans Annual Hackathon 2019  
-Easy-Share: Came up with the idea to make screen-share functionality easy and convenient during a video conference.  
-I lead a team of 6 people to conceptualize and execute on it.  
+###	DRDO STA-B:
+ Got selected for post of DRDO- Senior Technical Assistant through the eligibility of Diploma in Engineering.
 
-- Quarterly star performer award. 2017
+### Scholarship and PPO: 
+Won scholarship and PPO offer in Mahindra Group through “Mera Swaraj Education Support Program”.
+
+### Honorary Position: 
+Got 6th category rank among 2 lakhs+ students in UPCET-LEET 2021 (Uttar Pradesh Combined Entrance Test- Lateral Entry) exam conducted by National Testing Agency (NTA).
+
+### TECHFEST SLIET: 
+Got second prize in SLIET hackathon and third prize in KRITIM under Karyarachna event.  
+
+### Competitive Programming:
+100+ problems on codechef and 100+ problems on leetcode and code studio.
+

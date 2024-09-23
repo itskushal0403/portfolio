@@ -2,23 +2,20 @@
 ---
 ### Programming Languages
 
+- C
 - C++
 - Dart
 - Python
-- Javascript
-- Typescript
+- SQL
 
-### Frameworks
+
+### Technology and Tools
 
 - Flutter
-- React
+- Cross Platform development, 
+- WordPress
+- Git, 
+- Firebase, 
+- Robotics, 
+- Machine Learning
 
-### Tools
-
-- Git
-- VSCode
-- Figma
-- Jenkins
-- Pytest
-- Selenium
-- Jest

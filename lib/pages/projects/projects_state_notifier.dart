@@ -5,13 +5,11 @@ import 'package:mohit_portfolio/pages/projects/project_list.dart';
 
 const Map<TechStack, bool> initialMapping = {
   TechStack.flutter: false,
-  TechStack.react: false,
+  TechStack.robotics: false,
   TechStack.python: false,
   TechStack.dart: false,
-  TechStack.javascript: false,
-  TechStack.typescript: false
+  TechStack.machineLearning: false,
 };
-
 
 @immutable
 class ProjectsViewState {

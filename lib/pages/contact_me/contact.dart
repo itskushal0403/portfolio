@@ -110,7 +110,6 @@ class ContactTabElement extends ConsumerWidget {
                   color: isActive ? secondaryWhiteColor : secondaryGreyColor,
                 ),
               ),
-              
             ),
             IconButton(
               mouseCursor: SystemMouseCursors.click,
@@ -190,7 +189,7 @@ class ContactSideBarElement extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(4.0),
               child: Text(
-                'mohit_tater.${tabType.name}',
+                'Kushal Sharma.${tabType.name}',
                 style: TextStyle(
                     color: isActive ? accentOrangeColor : secondaryGreyColor),
               ),

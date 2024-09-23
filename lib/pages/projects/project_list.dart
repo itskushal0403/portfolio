@@ -2,74 +2,103 @@ import 'package:mohit_portfolio/pages/projects/project.dart';
 
 const List<Project> listOfProjects = [
   Project(
-    id: 'mohit-portfolio',
-    title: 'Mohit Tater - Portfolio Website',
+    id: 'Voice Assistant App ',
+    title: 'Voice Assistant App-integrated with chat GPT and DALL-E ',
     projectDescription:
-        'A personal portfolio portal for myself. I built it using Flutter and enjoyed working on various new things while working on it',
+        'This app uses flutter framework along with integration of Chat GPT and Dall-E AI image generation APIs. All the functionality such as widgets and Dart Dev tools are optimized.',
     techStackUsed: [
       TechStack.dart,
       TechStack.flutter,
     ],
-    githubLink: 'https://github.com/mnttnm/mohit_portfolio',
-    liveProjectLink: 'https://mnttnm.github.io/mohit_portfolio/#/',
+    githubLink: 'https://github.com/itskushal0403/Voice_Assistant_App',
+    //liveProjectLink: 'https://mnttnm.github.io/mohit_portfolio/#/',
     highlights: [
-      'VSCode like theme',
-      'Flip widget Animation',
-      'Riverpod state management',
-      'CI/CD support through github actions/pages'
+      'Virtual Voice Assistant UI',
+      'Flutter Speech To Text',
+      'OpenAI API',
+      'Flutter ChatGPT API Integration',
+      'Flutter AI Image Generation using Dall-E API',
+      'Flutter Text to Speech / Flutter TTS',
+      'Toggling Widgets Visibility',
+      'Animations',
     ],
-    thumbnail: 'mohit-portfolio/1.png',
+    //thumbnail: 'mohit-portfolio/1.png',
   ),
   Project(
-    id: 'brain-basket',
-    title: 'Brain Basket',
-    projectDescription: 'A book selling platform built with Flutter',
+    id: 'BeFocused',
+    title: 'BeFocused App',
+    projectDescription:
+        'An Application to keep you focused and avoid distractions',
     techStackUsed: [TechStack.dart, TechStack.flutter],
-    githubLink: 'https://github.com/mnttnm/brain-basket',
+    githubLink: 'https://github.com/itskushal0403/Befocused',
     highlights: [
-      'Responsive Design',
-      'Payment gateway integration with Razorpay',
-      'Thirdparty shipping integration with Shiprocket'
+      'Background Working',
+      'Authentication over other Apps',
+      'Build with Flutter'
     ],
-    thumbnail: 'brain-basket/1.png',
+    //thumbnail: 'Befocused/1.png',
   ),
   Project(
-      id: 'equity-trading-clone',
-      title: 'Clone: Equity Trading website',
-      projectDescription:
-          'Built using react and Javascript, the website has most of the UI features that are required for a stock broker platform',
-      techStackUsed: [TechStack.react, TechStack.javascript],
-      githubLink: 'https://github.com/mnttnm/Equity-Trading-UI',
-      highlights: [
-        'Real time price change UI',
-        'Order basket implementation',
-      ]),
+    id: 'equity-trading-clone', //
+    title: 'Autonomous Waste Segregator',
+    projectDescription:
+        'This project is based on segregating different kind of wastes produced with the help of sensors for identifying their physical properties and uses CV2 for image processing. ',
+    techStackUsed: [
+      TechStack.robotics,
+      TechStack.machineLearning,
+      TechStack.python
+    ],
+    //githubLink: 'https://github.com/mnttnm/Equity-Trading-UI',
+    highlights: [
+      'Integration of Robotics',
+      'Computer Vision and Image processing',
+    ],
+    //thumbnail: 'waste_segregator/1.png',
+  ),
   Project(
-    id: 'cc-slack-bot',
-    title: 'Slack bot for Coding Coach',
+    id: 'Motor-Controller', //cc-slack-bot
+    title: 'Automatic tubewells motor controller',
     projectDescription:
         'Developed Slack bot for their community channel. Active contribution in their roadmap planning and feature implementations',
     techStackUsed: [
-      TechStack.javascript,
+      TechStack.robotics,
     ],
-    githubLink: 'https://github.com/Coding-Coach/slack-bot',
+    //githubLink: 'https://github.com/Coding-Coach/slack-bot',
     highlights: [
-      'Open Source project',
-      'Built using slack Botkit',
+      'Controlling of Tube-Well motors with SMS',
+      'This project got 2nd rank in my collage annual technical event “TECHFEST SLIET',
+      'Integration of Elecronics-  coding  -mechanisms'
+          'Arduino and GSM module'
     ],
-    thumbnail: 'cc-bot/1.png',
+    //thumbnail: 'waste_segregator/1.png',
   ),
   Project(
     id: 'workitout',
-    title: 'WorkItOut-Platform for curated workout routines',
+    title: 'Borewell Rescue Bot ',
     projectDescription:
-        'Built using Softr, It was my first attempt of building a website using a nocode tool. It has basic UI but the workout routines are my personal favorite ;)',
-    techStackUsed: [TechStack.typescript, TechStack.react],
-    liveProjectLink: 'https://kena249.preview.softr.app/',
+        'A robotics device for borewell rescue operation for NDRF to assist in the rescue of individuals who are trapped in a borewell',
+    techStackUsed: [TechStack.robotics],
+    //liveProjectLink: 'https://kena249.preview.softr.app/',
     highlights: [
-      'Exposure to Airtable and Softr',
-      'Fun little project built using NoCode tool',
+      'These devices can be equipped with cameras, sensors, and other tools ',
+      'Integration of Mechanical-Electronics-Electrical-Coding Domains',
     ],
-    thumbnail: 'workitout/1.png',
+    //thumbnail: 'workitout/1.png',
+  ),
+  Project(
+    id: 'mohit-portfolio',
+    title: 'Object Detection System for Robotic Vision',
+    projectDescription:
+        'Developed a model for Object Detection for robotic vision by using TensorFlow and some other python tools like CNN and Image processing.',
+    techStackUsed: [
+      TechStack.machineLearning,
+      TechStack.robotics,
+      TechStack.python
+    ],
+    highlights: [
+      'Machine Learning Algorithms',
+      'CNN and Image processing',
+    ],
+    //thumbnail: 'mohit-portfolio/1.png',
   ),
 ];

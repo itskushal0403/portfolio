@@ -13,7 +13,7 @@ const accentPurpleColor = Color.fromARGB(255, 201, 139, 223);
 const primaryColorDarker = Color.fromARGB(255, 30, 30, 30);
 const primaryColorDark = Color.fromARGB(255, 35, 35, 35);
 const primaryColor = Color.fromARGB(255, 45, 45, 45);
-const primaryColorLight = Color.fromARGB(255, 142, 142, 142);
+const primaryColorLight = Color.fromARGB(255, 168, 159, 159);
 
 const gradientColorBlue = Color.fromARGB(255, 77, 91, 206);
 const gradientColorGreen = Color.fromARGB(255, 67, 217, 173);

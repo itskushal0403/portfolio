@@ -15,7 +15,7 @@ class FileView extends ConsumerWidget {
     return currentState.openFiles!.isEmpty == true
         ? const Center(
             child: Text(
-              'You can start with about_me section on the left to review profile of Mohit Tater',
+              'You can start with about_me section on the left to review profile of Kushal Sharma',
             ),
           )
         : Column(
@@ -128,15 +128,15 @@ class FileTabElement extends ConsumerWidget {
           if (isSelected == true) ...[
             resource.name != introFileResource.name
                 ? IconButton(
-              mouseCursor: SystemMouseCursors.click,
-              splashRadius: 12,
-              onPressed: () {
-                ref.read(aboutMeProvider.notifier).onFileClose(resource);
-              },
-              icon: const Icon(
-                Icons.close,
-                size: 14,
-              ),
+                    mouseCursor: SystemMouseCursors.click,
+                    splashRadius: 12,
+                    onPressed: () {
+                      ref.read(aboutMeProvider.notifier).onFileClose(resource);
+                    },
+                    icon: const Icon(
+                      Icons.close,
+                      size: 14,
+                    ),
                   )
                 : IconButton(
                     mouseCursor: SystemMouseCursors.basic,

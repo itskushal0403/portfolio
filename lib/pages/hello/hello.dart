@@ -41,17 +41,17 @@ class HelloPage extends StatelessWidget {
                       ],
                     ),
                     Text(
-                      'Mohit Tater',
-                      style: Theme.of(context).textTheme.headline1,
+                      'Kushal Sharma',
+                      style: Theme.of(context).textTheme.headlineLarge,
                     ),
                     const SizedBox(
                       height: 4,
                     ),
                     Text(
-                      '> UX Engineer',
+                      '>Flutter Developer and Robotics enthusiast',
                       style: Theme.of(context)
                           .textTheme
-                          .headline2!
+                          .headlineMedium!
                           .copyWith(color: secondaryBlueColor),
                     ),
                     const SizedBox(
@@ -63,21 +63,22 @@ class HelloPage extends StatelessWidget {
                             color: secondaryGreyColor,
                           ),
                     ),
-                    const Text(' * let\'s create some awesome products along the way!'),
+                    const Text(
+                        ' * let\'s create some awesome products along the way!'),
                     Row(
                       children: [
                         const Text(' * Let\'s'),
                         TextButton(
-                              onPressed: () {
-                                DefaultTabController.of(context)!.animateTo(3);
-                              },
-                              child: const Text(
-                                'CONNECT',
-                                style: TextStyle(
-                                  fontSize: 18,
-                                ),
-                              ),
-                              ),
+                          onPressed: () {
+                            DefaultTabController.of(context).animateTo(3);
+                          },
+                          child: const Text(
+                            'CONNECT',
+                            style: TextStyle(
+                              fontSize: 18,
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                     const Text(' */'),
@@ -106,7 +107,7 @@ class HelloPage extends StatelessWidget {
                   ],
                 ),
                 child: const CircleAvatar(
-                  radius: 300,
+                  radius: 350,
                   backgroundImage: AssetImage('images/mohit-profile-pic.jpeg'),
                 ),
               ),
