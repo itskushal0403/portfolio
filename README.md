@@ -1,5 +1,5 @@
-# Mohit Tater
+# Kushal Sharma
 
-A portfolio website for Mohit Tater made with [Flutter](https://flutter.dev/)
+A portfolio website for Kushal Sharma made with [Flutter](https://flutter.dev/)
 
-Design is inspired by [Yanka Darelova](https://www.behance.net/darelova)'s [Portfolio Concept-v2](https://www.behance.net/gallery/142207047/Portfolio-Concept-V2)
+
